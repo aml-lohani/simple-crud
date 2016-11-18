@@ -1,0 +1,14 @@
+{{outlet}}
+<h3>List of Books</h3>
+{{#each model as |book|}}
+	<div class="row well">
+		<div class="col-xs-12">
+			<h4>{{#link-to 'books.edit' book.id}}{{book.title}}{{/link-to}}</h4>
+			<p><i class="glyphicon glyphicon-edit"></i> {{book.author}}</p>
+			<p>{{book.description}}</p>
+			<p><small>(Added on : {{book.created}})</small></p>
+			<button {{action 'deleteBook' book.id}} class="btn btn-danger">Delete</button>
+		</div>
+
+	</div>
+{{/each}}

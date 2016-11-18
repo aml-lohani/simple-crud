@@ -1,0 +1,16 @@
+<form>
+  <div class="form-group">
+    <label for="title">Book Title</label>
+    {{input type="text" class="form-control" value=model.title placeholder="Enter title"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input type="text" class="form-control" value=model.author placeholder="Enter author"}}
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    {{textarea class="form-control" value=model.description placeholder="Enter book description..."}}
+  </div>
+  <button {{action 'editBook' model.id}} type="submit" class="btn btn-primary">Submit</button>
+</form>
+<hr>
