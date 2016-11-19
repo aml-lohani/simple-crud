@@ -2,6 +2,7 @@
 
 This README outlines the details of collaborating on this Ember application.
 This is a simple Ember Js application to demonstrate CRUD functionality of a book store. 
+Firebase database is used for storing and syncing data. Firebase Realtime Database is a cloud-hosted database.  
 
 ## Prerequisites
 
