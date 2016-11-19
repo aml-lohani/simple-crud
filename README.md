@@ -16,7 +16,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd library-app`
+* `cd simple-crud`
 * `npm install`
 * `bower install`
 
